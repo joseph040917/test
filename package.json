@@ -1,0 +1,44 @@
+{
+  "name": "markdown-ast-parser",
+  "version": "1.0.2",
+  "description": "A powerful markdown parser that converts markdown to AST and HTML",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/example.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "markdown",
+    "parser",
+    "ast",
+    "html",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/markdown-ast-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/markdown-ast-parser/issues"
+  },
+  "homepage": "https://github.com/your-username/markdown-ast-parser#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
