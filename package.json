@@ -1,9 +1,10 @@
 {
-  "name": "TestASTASR",
+  "name": "test-ast-asr",
   "version": "1.0.0",
-  "description": "A powerful markdown parser that converts markdown to AST and HTML",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "description": "Markdown AST Parser",
+  "author": "joseph040917",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -16,8 +17,6 @@
     "html",
     "typescript"
   ],
-  "author": "Your Name",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",

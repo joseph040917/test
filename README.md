@@ -1,31 +1,35 @@
-# TestASTASR
+# test-ast-asr
 
-A powerful markdown parser that converts markdown to AST and HTML.
+一个简单而强大的 Markdown AST 解析器。
 
-## Installation
+## 安装
 
 ```bash
-npm install TestASTASR
+npm install test-ast-asr
 ```
 
-## Usage
+或者通过 GitHub 安装：
+
+```bash
+npm install github:joseph040917/test
+```
+
+## 使用方法
 
 ```javascript
-const { parse } = require('TestASTASR');
+const { parse } = require('test-ast-asr');
 
-// Parse markdown to AST
+// 解析 Markdown 文本
 const ast = parse('# Hello World');
-
-// You can then transform the AST or convert it to HTML
+console.log(ast);
 ```
 
-## Features
+## 功能特点
 
-- Convert Markdown to AST
-- Transform AST to HTML
-- TypeScript support
-- Easy to use API
+- 将 Markdown 文本解析为 AST（抽象语法树）
+- 支持基本的 Markdown 语法
+- 使用 TypeScript 编写，提供类型支持
 
-## License
+## 许可证
 
 MIT
